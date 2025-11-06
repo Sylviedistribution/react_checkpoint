@@ -17,7 +17,9 @@ function App() {
           {/* --- contenu du menu (masqué sur mobile, affiché sur grands écrans) --- */}
           <Navbar.Collapse id="navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link className="active" href="#home">Home</Nav.Link>
+              <Nav.Link className="" href="#home">Home</Nav.Link>
+              <Nav.Link className="active" href="#home">Type</Nav.Link>
+              <Nav.Link className="" href="#home">About</Nav.Link>
             </Nav>
 
             <div className="d-flex align-items-center ms-3">
